@@ -4,7 +4,7 @@ use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/',function(){
-return "dddd";
+return "Raihan";
 });
 Route::get('/home',[SiteController::class, 'showHome']);
 Route::get('/about',[SiteController::class, 'showAbout']);
