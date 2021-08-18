@@ -1,6 +1,15 @@
 @extends('layout.app')
 @section('title','About')
 @section('content')
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam necessitatibus, expedita ad atque delectus, ducimus assumenda eum enim rem voluptatem ea. Facilis deserunt quam cupiditate porro repudiandae ratione adipisci dolorem officiis, at possimus. Voluptas sit, nostrum tenetur doloribus rerum quod. Vitae accusamus ut, necessitatibus facilis vero cupiditate omnis quasi ullam sapiente sed ex dolorem iusto impedit reiciendis cumque. Sapiente assumenda minima cum harum commodi vero repellat dignissimos molestias dicta deleniti, unde tenetur ex pariatur quis numquam qui? Corrupti quia recusandae asperiores ipsa exercitationem explicabo optio amet dolore omnis, possimus voluptatem voluptatibus molestiae distinctio nobis eius neque nemo id a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam necessitatibus, expedita ad atque delectus, ducimus assumenda eum enim rem voluptatem ea. Facilis deserunt quam cupiditate porro repudiandae ratione adipisci dolorem officiis, at possimus. Voluptas sit, nostrum tenetur doloribus rerum quod. Vitae accusamus ut, necessitatibus facilis vero cupiditate omnis quasi ullam sapiente sed ex dolorem iusto impedit reiciendis cumque. Sapiente assumenda minima cum harum commodi vero repellat dignissimos molestias dicta deleniti, unde tenetur ex pariatur quis numquam qui? Corrupti quia recusandae asperiores ipsa exercitationem explicabo optio amet dolore omnis, possimus voluptatem voluptatibus molestiae distinctio nobis eius neque nemo id a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam necessitatibus, expedita ad atque delectus, ducimus assumenda eum enim rem voluptatem ea. Facilis deserunt quam cupiditate porro repudiandae ratione adipisci dolorem officiis, at possimus. Voluptas sit, nostrum tenetur doloribus rerum quod. Vitae accusamus ut, necessitatibus facilis vero cupiditate omnis quasi ullam sapiente sed ex dolorem iusto impedit reiciendis cumque. Sapiente assumenda minima cum harum commodi vero repellat dignissimos molestias dicta deleniti, unde tenetur ex pariatur quis numquam qui? Corrupti quia recusandae asperiores ipsa exercitationem explicabo optio amet dolore omnis, possimus voluptatem voluptatibus molestiae distinctio nobis eius neque nemo id a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam necessitatibus, expedita ad atque delectus, ducimus assumenda eum enim rem voluptatem ea. Facilis deserunt quam cupiditate porro repudiandae ratione adipisci dolorem officiis, at possimus. Voluptas sit, nostrum tenetur doloribus rerum quod. Vitae accusamus ut, necessitatibus facilis vero cupiditate omnis quasi ullam sapiente sed ex dolorem iusto impedit reiciendis cumque. Sapiente assumenda minima cum harum commodi vero repellat dignissimos molestias dicta deleniti, unde tenetur ex pariatur quis numquam qui? Corrupti quia recusandae asperiores ipsa exercitationem explicabo optio amet dolore omnis, possimus voluptatem voluptatibus molestiae distinctio nobis eius neque nemo id a.</p>
+        </div>
+    </div>
+</div>
 
 @endsection

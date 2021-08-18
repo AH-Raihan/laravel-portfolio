@@ -4,7 +4,7 @@
 
 <div class="container"><div class="row">
 
-<div class="card col-" style="width: 18rem;">
+<div class="card">
   <img src="{{asset('images/mylogo.png')}}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card" >
   <img src="{{asset('images/mylogo.png')}}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
