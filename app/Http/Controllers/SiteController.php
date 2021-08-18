@@ -21,6 +21,5 @@ class SiteController extends Controller
     function showPortfolio()
     {
         return view("Portfolio");
-        //comment
     }
 }
