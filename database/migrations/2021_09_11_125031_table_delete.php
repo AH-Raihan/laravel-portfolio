@@ -13,7 +13,7 @@ class TableDelete extends Migration
      */
     public function up()
     {
-        Schema::drop('students');
+        Schema::dropIfExists('students');
         Schema::dropIfExists('all_table_new');
 
     }
@@ -25,6 +25,10 @@ class TableDelete extends Migration
      */
     public function down()
     {
-        //
+        Schema::create('musfek',function(Blueprint $table){
+          $table->string('musfiker_name');
+          $table->string('musfiker_roll');
+          $table->string('shahrier');
+        });
     }
 }
