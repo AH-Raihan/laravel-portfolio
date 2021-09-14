@@ -17,7 +17,21 @@ Route::get('/select',[db_practice::class,'onSelect']);
 Route::get('/insert',function(){
     return view('dbInsert');
 });
-Route::get('/delete',[db_practice::class,'onDelete']);
-Route::get('/update',[db_practice::class,'onUpdate']);
+Route::get('/delete',function(){
+    return view('dbDelete');
+});
+Route::get('/insert',function(){
+    return view('dbInsert');
+});
+Route::get('/update',function(){
+    return view('dbUpdate');
+});
+
+
+
+
+// ====== post ===============
 
 Route::post('/insertData',[db_practice::class,'onInsert']);
+Route::post('/deleteData',[db_practice::class,'onDelete']);
+Route::post('/updateData',[db_practice::class,'onUpdate']);
