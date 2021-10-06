@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Redis;
 
 class db_practice extends Controller
 {
+
+
     function onSelect()
     {
         // $json = DB::select('select * from students where roll=?', [91]);
@@ -15,8 +16,9 @@ class db_practice extends Controller
         $jsonString = json_encode($jsonData);
         $selectData = json_decode($jsonString);
 
-        return view('dbSelect', ['datas' => $selectData]);
+        return view('dbSelect', ['data' => $selectData]);
     }
+
 
     function onInsert(Request $req)
     {
@@ -32,6 +34,8 @@ class db_practice extends Controller
             return "fail";
         }
     }
+
+
     function onDelete(Request $req)
     {
         $id = $req->input('id');
@@ -43,14 +47,16 @@ class db_practice extends Controller
             return "Fail to Delete";
         }
     }
+
+
     function onUpdate(Request $req)
     {
-        $id=$req->input('id');
+        $id = $req->input('id');
         $name = $req->input('name');
         $class = $req->input('class');
         $roll = $req->input('roll');
 
-        $result= DB::update('UPDATE `students` SET `name`=? , `class`=? ,`roll`=? WHERE `id`=?',[$name,$class,$roll,$id]);
+        $result = DB::update('UPDATE `students` SET `name`=? , `class`=? ,`roll`=? WHERE `id`=?', [$name, $class, $roll, $id]);
 
         if ($result == true) {
             return "Successfully Updated";

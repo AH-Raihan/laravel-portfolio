@@ -13,8 +13,8 @@ class RenameTable extends Migration
      */
     public function up()
     {
-        Schema::rename('studens','students');
-        Schema::rename('all_table','all_table_new');
+//        Schema::rename('studens','studentsFactory');
+//        Schema::rename('all_table','all_table_new');
     }
 
     /**

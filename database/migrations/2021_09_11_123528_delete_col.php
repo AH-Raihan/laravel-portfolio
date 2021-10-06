@@ -13,9 +13,9 @@ class DeleteCol extends Migration
      */
     public function up()
     {
-        Schema::table('studens',function(Blueprint $table){
-            $table->dropColumn(['created_at','updated_at']);
-        });
+//        Schema::table('studens',function(Blueprint $table){
+//            $table->dropColumn(['created_at','updated_at']);
+//        });
 
         Schema::table('all_table',function(Blueprint $table){
             $table->dropColumn('confirmed');

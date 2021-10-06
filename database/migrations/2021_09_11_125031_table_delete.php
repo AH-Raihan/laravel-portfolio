@@ -13,7 +13,7 @@ class TableDelete extends Migration
      */
     public function up()
     {
-        Schema::dropIfExists('students');
+//        Schema::dropIfExists('studentsFactory');
         Schema::dropIfExists('all_table_new');
 
     }

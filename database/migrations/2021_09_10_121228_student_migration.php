@@ -13,14 +13,14 @@ class StudentMigration extends Migration
      */
     public function up()
     {
-        Schema::create('studens',function(Blueprint $table){
-            $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('class');
-            $table->string('roll');
-            $table->ipAddress('visitor');
-            $table->timestamps();
-        });
+//        Schema::create('studens',function(Blueprint $table){
+//            $table->bigIncrements('id');
+//            $table->string('name');
+//            $table->string('class');
+//            $table->string('roll');
+//            $table->ipAddress('visitor');
+//            $table->timestamps();
+//        });
     }
 
     /**

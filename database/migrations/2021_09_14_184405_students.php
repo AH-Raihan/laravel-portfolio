@@ -13,13 +13,13 @@ class Students extends Migration
      */
     public function up()
     {
-        Schema::create('students',function(Blueprint $table){
-            $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('class');
-            $table->bigInteger('roll', 11);
-            $table->timestamps();
-        });
+//        Schema::create('studentsFactory',function(Blueprint $table){
+//            $table->bigIncrements('id');
+//            $table->string('name');
+//            $table->string('class');
+//            $table->bigInteger('roll', 11);
+//            $table->timestamps();
+//        });
     }
 
     /**
@@ -29,6 +29,6 @@ class Students extends Migration
      */
     public function down()
     {
-        //
+        Schema::rename('studens','studentsFactory');
     }
 }

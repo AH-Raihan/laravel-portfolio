@@ -13,9 +13,9 @@ class NameChange extends Migration
      */
     public function up()
     {
-        Schema::table('studens',function(Blueprint $table){
-            $table->renameColumn('name','student_name');
-        });
+//        Schema::table('studens',function(Blueprint $table){
+//            $table->renameColumn('name','student_name');
+//        });
 
         Schema::table('all_table',function(Blueprint $table){
             $table->renameColumn('city','my_city');
